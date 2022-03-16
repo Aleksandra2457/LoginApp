@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D30CE18227E22A2100411FE7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CE18127E22A2100411FE7 /* LoginViewController.swift */; };
+		D30CE18427E22A2D00411FE7 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CE18327E22A2D00411FE7 /* AboutMeViewController.swift */; };
+		D30CE18627E22A4900411FE7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CE18527E22A4900411FE7 /* WelcomeViewController.swift */; };
 		D349F48027E2231E008ADEA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349F47F27E2231E008ADEA9 /* AppDelegate.swift */; };
 		D349F48227E2231E008ADEA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349F48127E2231E008ADEA9 /* SceneDelegate.swift */; };
-		D349F48427E2231E008ADEA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349F48327E2231E008ADEA9 /* ViewController.swift */; };
 		D349F48727E2231E008ADEA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D349F48527E2231E008ADEA9 /* Main.storyboard */; };
 		D349F48927E2231E008ADEA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D349F48827E2231E008ADEA9 /* Assets.xcassets */; };
 		D349F48C27E2231E008ADEA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D349F48A27E2231E008ADEA9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D30CE18127E22A2100411FE7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D30CE18327E22A2D00411FE7 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		D30CE18527E22A4900411FE7 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		D349F47C27E2231E008ADEA9 /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D349F47F27E2231E008ADEA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D349F48127E2231E008ADEA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D349F48327E2231E008ADEA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D349F48627E2231E008ADEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D349F48827E2231E008ADEA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D349F48B27E2231E008ADEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -85,7 +89,9 @@
 		D349F49527E22415008ADEA9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D349F48327E2231E008ADEA9 /* ViewController.swift */,
+				D30CE18127E22A2100411FE7 /* LoginViewController.swift */,
+				D30CE18327E22A2D00411FE7 /* AboutMeViewController.swift */,
+				D30CE18527E22A4900411FE7 /* WelcomeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -170,8 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D349F48427E2231E008ADEA9 /* ViewController.swift in Sources */,
+				D30CE18227E22A2100411FE7 /* LoginViewController.swift in Sources */,
+				D30CE18627E22A4900411FE7 /* WelcomeViewController.swift in Sources */,
 				D349F48027E2231E008ADEA9 /* AppDelegate.swift in Sources */,
+				D30CE18427E22A2D00411FE7 /* AboutMeViewController.swift in Sources */,
 				D349F48227E2231E008ADEA9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
