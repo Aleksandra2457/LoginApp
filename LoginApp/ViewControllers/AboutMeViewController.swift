@@ -8,9 +8,17 @@
 import UIKit
 
 class AboutMeViewController: UIViewController {
-
+    
+    // MARK: - IB Outlets
+    @IBOutlet var personalInfoLabel: UILabel!
+    
+    // MARK: - Public Properties
+    var user: User!
+    
+    // MARK: - Life Cycles Methods
     override func viewDidLoad() {
         super.viewDidLoad()
+        personalInfoLabel.text = "\(user.person.description)"
     }
 
 }
