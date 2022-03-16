@@ -35,7 +35,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                 welcomeVC.user = user
             } else if let navigationVC = viewController as? UINavigationController {
                 let aboutMeVC = navigationVC.topViewController as? AboutMeViewController
-                navigationVC.tabBarItem.title = "\(user.person.fullName)"
                 aboutMeVC?.user = user
             }
         }

@@ -18,6 +18,8 @@ class AboutMeViewController: UIViewController {
     // MARK: - Life Cycles Methods
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = user.person.fullName
+        tabBarItem.title = "\(user.person.fullName)"
         personalInfoLabel.text = "\(user.person.description)"
     }
 

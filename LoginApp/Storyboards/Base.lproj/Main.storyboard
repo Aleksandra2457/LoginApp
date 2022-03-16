@@ -239,11 +239,11 @@
             </objects>
             <point key="canvasLocation" x="1895.6521739130437" y="97.767857142857139"/>
         </scene>
-        <!--Item-->
+        <!--User-->
         <scene sceneID="Dy6-pH-CEb">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AjX-3L-vUP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="person.fill" catalog="system" id="OrF-Vt-GAF"/>
+                    <tabBarItem key="tabBarItem" title="User" image="person.fill" catalog="system" id="OrF-Vt-GAF"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mYQ-Yn-Yrw">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
