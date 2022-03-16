@@ -18,7 +18,7 @@ class WelcomeViewController: UIViewController {
     // MARK: - Life Cycles Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        welcomeUserLabel.text = "Welcome, \(user.person.name)\n \(user.person.surname)!"
+        welcomeUserLabel.text = "Welcome, \(user.person.fullName)!"
         tabBarItem.title = "Home"
         setupGradient()
     }
